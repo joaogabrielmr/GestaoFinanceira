@@ -5,7 +5,7 @@
 ✨ Sobre o Projeto
 
 Este é um aplicativo web desenvolvido para ajudar empresas a gerenciar suas finanças com eficiência. O sistema oferece funcionalidades para organização financeira, incluindo o cadastro de funcionários, controle de pagamentos e geração de relatórios financeiros, utilizando PHP no backend.
-
+*Feito em conjunto de amigos na faculdade. Matéria de Prática Profissional.
 
 
 ⚙️ Funcionalidades Principais
