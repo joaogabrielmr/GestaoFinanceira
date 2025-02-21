@@ -1,0 +1,46 @@
+CREATE TABLE admins(
+codigo_adm INT PRIMARY KEY ,
+nome varchar(50) NOT NULL,
+telefone int(15) NOT NULL,
+cpf int(12) NOT NULL,
+estado varchar(30) NOT NULL,
+cidade varchar(50) NOT NULL,
+email varchar(50) NOT NULL,
+senha varchar(50) NOT NULL);
+
+
+
+CREATE TABLE funcionarios (
+    codigo_funcionario INT PRIMARY KEY ,
+    nome varchar(50) NOT NULL,
+    cpf int(12) NOT NULL,
+    rg int(9) NOT NULL,
+    estado varchar(30) NOT NULL,
+    cidade varchar(50) NOT NULL,
+    data_nascimento date NOT NULL,
+    estado_civil varchar(15) NOT NULL,
+    cargo varchar(20) NOT NULL);
+
+
+
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    codigo_produto INT NOT NULL,
+    nome VARCHAR(255) NOT NULL,
+    tipo VARCHAR(255) NOT NULL,
+    estado varchar(2) NOT NULL,
+    cidade varchar (256) NOT NULL,
+    quantidade INT NOT NULL,
+    valor DECIMAL(10, 2) NOT NULL
+);
+
+CREATE TABLE vendas (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    codigo_produto VARCHAR(255) NOT NULL,
+    nome_produto VARCHAR(255) NOT NULL,
+    estado_venda varchar(30) NOT NULL,
+    cidade_venda varchar(50) NOT NULL,
+    quantidade INT NOT NULL,
+    data_venda DATE NOT NULL,
+    valor DECIMAL(10, 2) NOT NULL
+);

@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centralizar verticalmente */
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links li:last-child {
+    margin-right: 0;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Mudança para alinhar os botões em coluna */
+    justify-content: space-between; /* Alteração para distribuir o espaço vertical */
+    align-items: center; /* Centralizar os botões horizontalmente */
+    height: calc(100vh - 90px); /* Altura total da tela menos a altura da barra superior */
+}
+
+.button {
+    width: 50%; /* Largura dos botões */
+    margin: 10px;
+    height: 110px; /* Altura dos botões */
+    color: rgb(255, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    line-height: 100px; /* Centralizar verticalmente o texto */
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+/* Adicionei algumas classes para cores adicionais, sinta-se à vontade para removê-las se não forem necessárias */
+.dois {
+    background-color: rgb(0, 195, 255);
+}
+
+.três {
+    background-color: rgb(0, 119, 255);
+}
+
+.quatro {
+    background-color: rgb(0, 37, 202);
+}
+
+.cinco {
+    background-color: rgb(0, 26, 172);
+}
+
+.um {
+    background-color: rgb(0, 4, 66);
+}
+
+/* Gradiente de texto para o nome do site */
+.site-name {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    background: linear-gradient(to right, #00ffff, #8400ff); /* Gradiente de azul */
+    -webkit-background-clip: text; /* Clip do texto para aplicar o gradiente */
+    color: transparent; /* Torna o texto transparente para mostrar o gradiente por trás */
+}
